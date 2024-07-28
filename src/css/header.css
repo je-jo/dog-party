@@ -1,0 +1,44 @@
+header {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+
+    h1 {
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+
+
+
+    .dog-icon {
+        width: 50px;
+        transform: scale(0.75);
+      }
+
+
+
+    nav {
+        align-self: stretch;
+        padding: 0 1rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--secondary-accent-color);
+    
+        ul {
+            display: flex;
+            list-style-type: none;
+            gap: 2rem;
+    
+            li>a {
+
+                font-weight: bold;
+                color: white !important;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
