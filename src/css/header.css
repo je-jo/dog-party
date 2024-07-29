@@ -1,44 +1,42 @@
 header {
-    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2.5rem;
     gap: 1.5rem;
 
-
     h1 {
-        font-weight: 400;
         text-transform: capitalize;
     }
 
-
-
     .dog-icon {
         width: 50px;
-        transform: scale(0.75);
-      }
+        transform: scale(0.65);
+    }
 
-
+    button {
+        margin-top: -0.45rem;
+    }
 
     nav {
         align-self: stretch;
-        padding: 0 1rem;
+        align-items: center;
+        padding: 0 1.5rem;
         display: flex;
         justify-content: space-between;
         background-color: var(--secondary-accent-color);
-    
+
         ul {
             display: flex;
-            list-style-type: none;
             gap: 2rem;
-    
-            li>a {
+            margin-right: 1rem;
 
+            .nav-link {
+                font-size: 1.1em;
+                color: var(--white-color);
                 font-weight: bold;
-                color: white !important;
                 text-decoration: none;
             }
         }
     }
 }
-

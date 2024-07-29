@@ -1,0 +1,21 @@
+footer {
+    margin-top: auto;
+    padding-bottom: 1rem;
+    color: var(--white-color);
+    background-color: var(--main-accent-color);
+
+    h2 {
+        font-size: 1.125rem;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        padding: 2.5rem;
+        gap: 3rem;
+    }
+
+    a {
+        font-weight: bold;
+    }
+}

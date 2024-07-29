@@ -1,32 +1,10 @@
 @import 'reset';
 @import 'font';
 @import 'variables';
+@import 'global';
 @import 'header';
 @import 'main';
-
-
-
-body {
-  background: url('../../dist/images/park.jpg') center/cover;
-  height: 100vh;
-  width: 100%;
-  margin: 1rem;
-  font-family: 'Raleway', sans-serif;
-}
-
-img:not(.dog-icon) {
-  border: 4px solid var(--main-accent-color);
-  border-radius: 50%;
-}
-
-button {
-  font-size: 1.1rem;
-  padding: 0.3rem 0.8rem;
-  font-weight: bold;
-  color: var(--main-accent-color);
-  background-color: white;
-  border: 4px solid currentColor;
-}
+@import 'footer';
 
 
 
@@ -34,7 +12,9 @@ button {
 
 
 
-footer {
-  color: white;
-  background-color: var(--main-accent-color);
-}
+
+
+
+
+
+
