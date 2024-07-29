@@ -1,25 +1,27 @@
 # Static Comp Challenge - Frontend Module 2
 
-## Project Spec  
-[https://frontend.turing.edu/projects/M2-static-comp-challenge.html](https://frontend.turing.edu/projects/M2-static-comp-challenge.html)
+## Abstract
 
-## Setup
-1. Fork + clone down this repo
-1. `cd` into the directory
-1. Install the library dependencies with `npm install`
-1. To verify that it is setup correctly, run `npm start` in your terminal. Go to `http://localhost:8080/` and you should see a page with the Turing logo image and a beautiful gradient background. If that's the case, you're good to go.
-2. Enter `control + c` in your terminal to stop the server at any time.
+A Turing School challenge of matching a given design. Spec can be found [here](https://frontend.turing.edu/projects/module-2/M2-static-comp-challenge.html).
 
-## Specification
+## Learning goals
 
-This static comp challenge will keep you exercising that HTML/CSS muscle. :muscle: You will be asked to recreate the image below by recreating the screenshot using HTML and CSS.
+- The challenge is to be timeboxed, and no more than 4 focused hours should be spent on it. 
 
-In other static comp challenges (but not this one), we'll give you a bit of flexibility, however the objective is to build something that **very closely** represents the original design.
+  - My result: 5 x 25min.
 
-Once you get into the workforce, building out comps that reflect the designer's choice in layout, spacing, font, imagery, and color to the smallest detail, is a requirement.
+## Preview
 
-## The Challenge
+![](/screenshot.png)
 
-Your challenge is to recreate the following image using HTML and CSS. You've been given some initial files to get started that you must use.
+## Live page
 
-![this](dog-party-spec.png).
+[Dog Party](https://je-jo.github.io/dog-party/)
+
+NOT responsive for small screens, per spec. Made to 1200px width to match the image.
+
+## Helpful links
+
+- [A (more) Modern CSS Reset by Andy Bell](https://piccalil.li/blog/a-more-modern-css-reset/)
+- [google-webfonts-helper](https://gwfh.mranftl.com/fonts) - A Hassle-Free Way to Self-Host Google Fonts
+- [PerfectPixel](https://www.welldonecode.com/perfectpixel/) - a Chrome extension for comparing website with design image.
